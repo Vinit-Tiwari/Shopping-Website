@@ -1,4 +1,7 @@
 
+body{
+    font-family:serif;
+}
 .head{
     display: flex;
     justify-content: space-between;
@@ -51,22 +54,35 @@
 .item1{
     display: flex;
     flex-direction: row;
-    line-height: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid black;
+    
 }
 .text1{
     color: lightslategray;
     margin-left: 10px;
-    font-size: 1.7vw;
-    flex-shrink: 0;
+    font-size: 1vw;
+    border: 1px solid black;
+    
 }
 .text1 p{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }   
+.text1 h4{
+    max-width: 62vw;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height:normal;   
+}
 .no-of-rating{
     margin-left: 1vw;
 }
 .checked{
     color: orange;
+    margin-bottom: -50px;
 }
 
 .checked:hover{
@@ -102,7 +118,7 @@
 
 }
 .price-tag{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 @media screen and (max-width:600px) {
@@ -116,13 +132,19 @@
     .text1{
         font-size: 3.5vw;
         font-weight: 100;
+
     }
     .checked{font-size: 1vh;}
 
     .dealoftheday{
-        width: 18vw;
+        width: 12vw;
+        height: 3vw;
         margin-top: 1vh;}
     .dealoftheday h4{
-        font-size: 2vw;}
-    .price-tag{font-size: 3vw;}
+        font-size: 1.5vw;}
+    .price-tag{font-size: 2.5vw;}
+    .original-price{
+        font-size: 1.9vw;
+    }
 }
+
