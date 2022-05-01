@@ -70,7 +70,7 @@ body{
 .text1 h4{
     max-width: 62vw;
     font-weight: 400;
-    font-size: 2vw;
+    font-size:2vw;
     line-height:normal;   
     text-decoration: none;
 }
@@ -133,6 +133,9 @@ body{
 @media screen and (max-width:600px) {
 
     .txt{font-size: 4vw;}
+    .item1{
+        line-height: 0%;
+    }
     .img1 img{width: 28vw;}
     .img2 img{width: 28vw;}
     .text1 p{
@@ -142,6 +145,10 @@ body{
         font-size: 3.5vw;
         font-weight: 100;
 
+    }
+    .text1 h4{
+        font-size: 3.5vw;
+        font-weight: 200;
     }
     .checked{font-size: 1vh;}
 
