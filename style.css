@@ -55,17 +55,13 @@ body{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    display: flex;
     align-items: center;
-    justify-items: center;
-    border: 1px solid black;
-    
+    justify-items: center;    
 }
 .text1{
     color: lightslategray;
     margin-left: 10px;
     font-size: 1vw;
-    border: 1px solid black;
     
 }
 .text1 p{
@@ -76,7 +72,20 @@ body{
     font-weight: 400;
     font-size: 2vw;
     line-height:normal;   
+    text-decoration: none;
 }
+
+.text1 a{
+    text-decoration: none;
+}
+
+.name{
+    color: black;
+}
+.name:hover{
+    color: orange;
+}
+
 .no-of-rating{
     margin-left: 1vw;
 }
