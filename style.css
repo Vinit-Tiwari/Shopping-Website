@@ -4,24 +4,35 @@ body{
     margin-left: 2px;
     margin-right: 2px;
 }
+
+.header{
+    background-color: black;
+
+}
+
 .head{
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    position: relative;
+    top: 8px;
+    margin: 10px;
+    
 }
 .logo img{
-    width: 150px;
-    height: auto;
+   width: 70px;
+   height: auto;
+    border-radius: 2px;
     background-color: white;
 }
 
 .search{
     width:50vw;
     height: 25px;
-    margin-top: 10px;
     border-radius: 50px;
-    border-color: black;
-    border-width: 1px;
+    border-color: white;
+    border-width: 1px ;
 }
 .search-icon{
     position: relative;
@@ -31,6 +42,7 @@ body{
 
 .cart img{
     width: 30px;
+    background-color: white;
 }
 
 .txt{
@@ -135,7 +147,8 @@ body{
         line-height: 0%;
     }
     .img1 img{width: 28vw;}
-    .img2 img{width: 28vw;}
+    
+    
     .text1 p{
         font-size: 2vw;
     }
