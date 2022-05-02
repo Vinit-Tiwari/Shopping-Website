@@ -240,7 +240,17 @@ header{
         display: flex;
         flex-direction: row;}
         .head ul li a{
-            font-size: 2vw;
+            font-size: 1.8vw;
+        }
+        .search{
+          size: 5px;
+        }  
+        .logo{
+            margin-top: 8px;
+        }
+        .cart{
+            margin-top: 8px;
+            margin-right: 5px;
         }
 }
 
