@@ -3,9 +3,11 @@ body{
     font-family:serif;
     margin-left: 2px;
     margin-right: 2px;
+    padding: 0 3%;
+    background-color: rgb(53, 50, 50);
 }
 
-.header{
+/* .header{
     background-color: black;
 
 }
@@ -38,19 +40,75 @@ body{
     position: relative;
     left: -28px;
     color: black;
+    background-color: white;
+    overflow: hidden;
 }
 
 .cart img{
     width: 30px;
     background-color: white;
+} */
+
+header{
+    background-color: black;
+    border-radius: 10px;
+
+}
+.logo{
+    width: 10vw;
+    height: 5vw;
+    margin-left: 5px;
+}
+.cart{
+    width: 4vw;
+}
+.search{
+    width: 20vw;
+    
+    border-radius: 100px;
+}
+
+.head ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1%;
+}
+
+.head ul {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 rgb(179, 177, 177);
+
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: white;
+    
+    font-family: serif;
+    font-size: 1.5vw;
+}
+
+.head ul li a:hover{
+    color: orange;
 }
 
 .txt{
     font-family: serif;
     font-size: 2vw;
     margin-left: 10px;
+    color: white;
 }
-
+.txt::after{
+    content: ' ';
+    background-color: red;
+    display: block;
+    width: 42px;
+    height: 1.5px;
+}
 .result{
     display: flex;
     flex-direction: row;
@@ -67,6 +125,9 @@ body{
     padding: 10px;
     align-items: center;
     max-width: 400px;
+    background-color: black;
+    box-shadow: 0 10px 10px 0 gray;
+    
 }
 .text1{
     color: lightslategray;
@@ -80,6 +141,7 @@ body{
 .text1 h4{
     max-width: 62vw;
     font-weight: 400;
+    color: white;
     font-size:2vw;
     line-height:normal;   
     text-decoration: none;
@@ -89,10 +151,7 @@ body{
     text-decoration: none;
 }
 
-.name{
-    color: black;
-}
-.name:hover{
+.text1 h4:hover{
     color: orange;
 }
 
@@ -180,5 +239,8 @@ body{
     .item1{
         display: flex;
         flex-direction: row;}
+        .head ul li a{
+            font-size: 2vw;
+        }
 }
 
